@@ -16,3 +16,5 @@ console.log("Transport :", transport);
 console.log("Autres dépenses :", autresDepenses);
 console.log("Total des dépenses :", totalDepenses);
 console.log("Reste :", reste);
+
+module.exports = { salaireMensuel, loyer, nourriture, transport, autresDepenses, totalDepenses,reste};
