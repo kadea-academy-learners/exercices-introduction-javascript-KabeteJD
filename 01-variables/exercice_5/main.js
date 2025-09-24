@@ -1,5 +1,9 @@
 // Exercice 5
 // Écrivez votre code ici
-let Celsius = 19; 
-let Fahrehreit = (Celsius * 9/5) + 32; 
-console.log("Température en Fahrenheit : ",  fahrenheit);
+function celsiusToFahrenheit(celsius) {
+  return celsius * 9 / 5 + 32;
+}
+
+console.log(celsiusToFahrenheit(25));
+module.exports = { celsiusToFahrenheit };
+

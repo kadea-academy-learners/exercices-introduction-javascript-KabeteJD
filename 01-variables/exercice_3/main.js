@@ -1,4 +1,4 @@
 // Exercice 3
 // Écrivez votre code ici
-const Ville = "Kinshasa"; 
-console.log(Ville);
+const VILLE = "Kinshasa"; 
+console.log(VILLE);
